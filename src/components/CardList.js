@@ -2,13 +2,13 @@ import React from 'react';
 import Card from './Card';
 import './CardList.css';
 import image1 from '../assets/Screenshot 2024-07-31 202257.png';
-import image2 from '../assets/images22.png';
+import image2 from '../assets/aaa.png';
 import image3 from '../assets/images 3.png';
 import images4 from '../assets/image 4.png';
 import images5 from '../assets/image5.png';
 import images from '../assets/images6.png';
 import images6 from '../assets/9881670.png';
-import images7 from '../assets/electric-light-bulb-276302441.jpg';
+import images7 from '../assets/uu.png';
 import image9 from '../assets/images9.png';
 
 
