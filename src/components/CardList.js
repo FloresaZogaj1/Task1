@@ -12,8 +12,6 @@ import images7 from '../assets/electric-light-bulb-276302441.jpg';
 import image9 from '../assets/images9.png';
 
 
-
-
 const cardsData = [
     { imageSrc: image1, title: 'The TLD', description: 'Does the domain extension match the language of the domain name?' },
     { imageSrc: image2, title: 'Domain Length', description: 'Is the domain short enough to remember?' },
