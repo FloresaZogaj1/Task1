@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from './Card';
 import './CardList.css';
-import image1 from '../assets/domain-extension-com.jpg';
+import image1 from '../assets/Screenshot 2024-07-31 202257.png';
 import image2 from '../assets/images22.png';
 import image3 from '../assets/images 3.png';
 import images4 from '../assets/image 4.png';
