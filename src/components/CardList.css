@@ -1,0 +1,46 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    padding: 20px;
+    box-sizing: border-box; /* Përfshi padding dhe border në përmasat */
+}
+
+/* Për ekranet më të mëdha se 1024px */
+@media (min-width: 1024px) {
+    .container {
+        grid-template-rows: auto; /* Përdor auto për rreshtat që të përshtaten automatikisht */
+    }
+}
+
+/* Për ekranet më të vogla se 1024px */
+@media (max-width: 1024px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr); /* Shfaq 2 kolona për ekranet më të vogla */
+        grid-template-rows: auto; /* Përdor auto për rreshtat që të përshtaten automatikisht */
+    }
+}
+
+/* Për ekranet më të vogla se 768px */
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr; /* 1 kolona për ekranet shumë të vogla */
+        grid-template-rows: auto; /* Përdor auto për rreshtat që të përshtaten automatikisht */
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+    }
+
+    .image {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .card-body {
+        text-align: center;
+    }
+}
