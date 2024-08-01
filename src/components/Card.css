@@ -1,16 +1,19 @@
+
 .card {
     background-color: transparent; 
     border-radius: 8px; 
     padding: 10px;
-    width: 320px; 
+    width: 100%; 
+    max-width: 320px; 
     display: flex; 
     align-items: center; 
     transition: transform 0.2s; 
     overflow: hidden; 
-    max-width: 100%; 
     box-sizing: border-box; 
     flex-wrap: wrap; 
+    margin: 0 auto; 
 }
+
 .image-wrapper {
     display: flex; 
     justify-content: center; 
@@ -30,9 +33,11 @@
     border-radius: 50%; 
     object-fit: cover; 
 }
+
 .text-content {
     flex: 1; 
     overflow: hidden; 
+    text-align: left; 
 }
 
 .title {
@@ -47,8 +52,7 @@
 .description {
     font-size: 14px; 
     color: #666; 
+    overflow: hidden;
     text-overflow: ellipsis; 
-    white-space: wrap; 
+    white-space: normal;
 }
-
-  
